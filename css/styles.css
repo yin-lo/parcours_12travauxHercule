@@ -60,6 +60,7 @@ body {
 	border-radius: 8px;
 	margin-bottom: 8px;
 	border-bottom: solid 3px transparent;
+	transition: all 0.3s ease-in-out;
 }
 
 .nav-links li:first-child {
@@ -68,10 +69,19 @@ body {
 
 .nav-item-link {
 	text-transform: uppercase;
+	text-align: center;
 }
+
+.nav-item:hover {
+	background-color: var(--primary-color);
+	border-bottom: solid 3px rgb(202, 201, 201);
+	color: white;
+}
+
 /*----------- main -------------------*/
 
 /*----------- en tête -------------------*/
+
 .page {
 	padding: 5rem 2rem 2rem;
 }
@@ -194,6 +204,12 @@ body {
 	border: solid 3px var(--primary-color);
 	color: var(--primary-color);
 	border-radius: 50px;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background-color: var(--primary-color);
+	color: white;
 }
 
 .footer {
