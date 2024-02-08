@@ -88,14 +88,14 @@ body {
 .content-titles {
 	width: 50%;
 	font-size: 3em;
-	margin-inline: 2rem;
+	margin:0 2rem 0 5rem;
     border-top: solid 3px var(--primary-color);
     padding-top: 2rem;
 }
 
 .content-title {
 	max-width: 450px;
-	margin-left: auto;
+	margin-left: 5rem;
 	font-weight: 700;
 	text-align: right;
 }
