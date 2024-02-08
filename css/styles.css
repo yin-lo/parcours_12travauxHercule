@@ -134,6 +134,13 @@ body {
 	display: block;
 }
 
+.picture-desc{
+    background-color: rgb(0, 0, 0);
+    /* background-blend-mode:saturation; */
+    padding: 1rem;
+    color: white;
+}
+
 .content-quote {
 	border-top: 3px solid #ccc;
 	margin-top: 2rem;
