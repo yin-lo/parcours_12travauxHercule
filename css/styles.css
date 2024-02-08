@@ -88,9 +88,9 @@ body {
 .content-titles {
 	width: 50%;
 	font-size: 3em;
-	margin:0 2rem 0 5rem;
-    border-top: solid 3px var(--primary-color);
-    padding-top: 2rem;
+	margin: 0 2rem 0 5rem;
+	border-top: solid 3px var(--primary-color);
+	padding-top: 2rem;
 }
 
 .content-title {
@@ -106,7 +106,7 @@ body {
 
 .content-title--sub {
 	color: #ccc;
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 .content-picture {
@@ -148,16 +148,23 @@ body {
 	line-height: 1.5;
 }
 
+/*--------------- les articles ------------------*/
+
 .articles {
 	margin-top: 5rem;
 }
 
 .articles-container {
 	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
 }
 
 .card {
 	margin-bottom: 2rem;
+	max-width: 50%;
 }
 
 .card-title {
