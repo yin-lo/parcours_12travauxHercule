@@ -187,8 +187,13 @@ body {
 }
 
 .btn {
+	margin-right: 1rem;
 	padding: 1rem 2rem;
 	font-size: 1.2em;
+	font-weight: 700;
+	border: solid 3px var(--primary-color);
+	color: var(--primary-color);
+	border-radius: 50px;
 }
 
 .footer {
