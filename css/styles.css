@@ -234,75 +234,111 @@ body {
 /*
     Styles pour les écrans de moins de 1200px de large :
 */
-/*
 
-    .content-focus {
-        display:block;
-    }
+@media screen and (max-width: 1200px) {
+	.content-focus {
+		display: block;
+	}
 
-    .content-titles {
-        width: auto;
-        text-align: center;
-        margin-right: 0;
-    }
+	.content-titles {
+		width: auto;
+		margin-inline: 0;
+		margin-bottom: 2rem;
+	}
 
-    .content-title {
-        max-width: none;
-    }
+	.content-title {
+		text-align: left;
+		max-width: none;
+		margin: 0;
+	}
 
-    .content-picture {
-        width: auto;
-    }
+	.content-title--main {
+		margin-bottom: 1rem;
+	}
 
-    .articles-container {
-      
-        display:block;
-    }
-    .card {
-        width:auto;
-    }
+	.content-picture {
+		width: auto;
+	}
 
-*/
+	.articles-container {
+		/* display: block; */
+	}
+
+	.articles {
+		margin-top: 2rem;
+	}
+
+	.card {
+		border: solid 1px rgb(207, 207, 207);
+		border-radius: 10px;
+	}
+
+	.card-footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		width: 80%;
+	}
+}
 
 /*
     Styles pour les écrans de moins de 900px de large :
 */
-/*
-    .header {
-        position:static;
-        width:auto;
-        float:none;
-        margin-left:0;
-    }
 
-    .container {
-        width:96%;
-        padding-left:0;
-    }
+@media screen and (max-width: 900px) {
+	.header {
+		position: static;
+		width: auto;
+		float: none;
+		margin-left: 0;
+	}
 
-    .page {
-        padding: 0 1rem;
-    }
+	.container {
+		width: 96%;
+		padding-left: 0;
+	}
 
-    .nav {
-        padding: 1rem;
-    }
+	.page {
+		padding: 0 1rem;
+	}
 
-    .nav .title {
-        display:none;
-    }
+	.nav {
+		padding: 1rem;
+	}
 
-    .nav-links {
-        margin-top:0;
-    }
+	.nav .title {
+		display: none;
+	}
 
-    .nav-item {
-        width:calc(33.3333% - .5rem);
-        text-align: center;
-    }
+	.nav-links {
+		margin-top: 0;
+	}
 
-    .nav-item-link {
-        margin-bottom: 0;
-    }
+	.nav-item {
+		width: calc(33.3333% - 0.5rem);
+		text-align: center;
+	}
 
-*/
+	.nav-item-link {
+		margin-bottom: 0;
+	}
+
+.card{
+    margin-bottom: 0;
+}
+
+	.card-footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		width: 90%;
+	}
+
+	.card-footer .btn {
+		width: 90%;
+		margin-inline: 0;
+		text-align: center;
+	}
+}
