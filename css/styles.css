@@ -1,5 +1,8 @@
+
+
 body {
 	background: #eee;
+    font-family: 'Asap', sans-serif;
 }
 
 * {
@@ -235,3 +238,6 @@ body {
     }
 
 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap')
