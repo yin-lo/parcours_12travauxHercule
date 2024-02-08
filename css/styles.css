@@ -7,6 +7,8 @@ body {
 	box-sizing: border-box;
 }
 
+/*----------- header /nav -------------------*/
+
 .container {
 	width: 90%;
 	margin: auto;
@@ -25,7 +27,7 @@ body {
 
 .search {
 	padding: 1rem;
-	background: #f39c12;
+	background: var(--primary-color);
 }
 
 .search-input {
@@ -39,7 +41,7 @@ body {
 .title {
 	font-size: 2em;
 	font-weight: bold;
-	border-bottom: 3px solid #f39c12;
+	border-bottom: 3px solid var(--primary-color);
 	padding-bottom: 1rem;
 }
 
@@ -61,13 +63,15 @@ body {
 }
 
 .nav-links li:first-child {
-	border-bottom: solid 3px #f39c12;
+	border-bottom: solid 3px var(--primary-color);
 }
 
 .nav-item-link {
 	text-transform: uppercase;
 }
+/*----------- main -------------------*/
 
+/*----------- en tête -------------------*/
 .page {
 	padding: 5rem 2rem 2rem;
 }
@@ -84,12 +88,25 @@ body {
 .content-titles {
 	width: 50%;
 	font-size: 3em;
-	margin-right: 2rem;
+	margin-inline: 2rem;
+    border-top: solid 3px var(--primary-color);
+    padding-top: 2rem;
 }
 
 .content-title {
 	max-width: 450px;
 	margin-left: auto;
+	font-weight: 700;
+	text-align: right;
+}
+
+.content-title--main {
+	margin-bottom: 2rem;
+}
+
+.content-title--sub {
+	color: #ccc;
+    font-size: 2rem;
 }
 
 .content-picture {
@@ -249,5 +266,3 @@ body {
     }
 
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
