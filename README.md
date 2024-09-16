@@ -40,4 +40,4 @@ cd nomDuDepot && code .
 
 ## En ligne
 
-[Les 12 travaux d'Hercule](https://yin-lo.github.io/parcours_12travauxHercule/)
+[Les 12 travaux d'Hercule](https://yin-lo.github.io/parcours_12travauxHercule/index.html)
