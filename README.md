@@ -6,7 +6,7 @@ Site statique présentant les 12 travaux d'Hercule.
 
 Mission : intégrer la maquette à partir de l'image ci-dessous et rendre le site responsive.
 
-![maquette à intégrer](https://github.com/yin-lo/parcours_12travauxHercule/new/main/modele/resultat-desktop.jpg)
+![maquette à intégrer](modele/resultat-desktop.jpg)
 
 ## Stack technique
 
